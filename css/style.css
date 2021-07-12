@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+   
+}
+
+a, ul{
+    text-decoration: none;
+    text-transform: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.header{
+    display: flex;
+    background: gray;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Zen Loop', cursive;;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar a{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 4fr;
+    grid-template-rows: 1fr;
+}
+
+.about{
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    height: 415px;
+    box-shadow: 5px 2px 5px #C0C0C0;
+
+}
+
+.about .about-head{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-bottom: 30px;
+   background: #F5F5F5;
+   
+}
+
+.about .about-head div{
+    margin-left: 40px;
+}
+
+.about .about-head img{
+    margin-top: 10px;
+    width: 100%;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.name h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;   
+}
+
+.social{
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
+.social div{
+    display: inline-block;
+    text-align: center;
+}
+
+.social div i {
+    display: inline-block;
+}
+
+.contact{
+  margin-bottom: 10px; 
+  background: #C0C0C0;
+  border-radius: 10px;
+  box-shadow: 5px 2px 5px #c0c0c0;
+
+}
+
+.contact div{
+    margin-left: 25px;
+    font-size: 15px;
+    background: #C0C0C0;
+
+}
+.contact div i{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.container{
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 90%;
+}
+
+.text{
+    background: #F5F5F5;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px #C0C0C0;
+
+}
+
+.text p {
+    text-align: justify;
+}
+
+.text h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;   
+}
+
+.skill .skill-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h3{
+    text-align: center;
+
+}
+
+.skill .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 30%;
+    height: 250px;
+    padding: 20px 20px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #C0C0C0;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+
+
+
+ 
+
+
+
+
